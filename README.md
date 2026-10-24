@@ -49,8 +49,8 @@ create a standalone Windows `.exe`, open PowerShell in the project folder and
 run:
 
 ```powershell
-py -m pip install pyinstaller
-py -m PyInstaller --clean --onefile --name Price3D Price3D.py
+pip install pyinstaller
+PyInstaller --clean --onefile --name Price3D Price3D.py
 ```
 
 The executable will be created at `dist\Price3D.exe`. Run it from a folder
