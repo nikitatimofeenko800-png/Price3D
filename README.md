@@ -50,7 +50,7 @@ run:
 
 ```powershell
 pip install pyinstaller
-PyInstaller --clean --onefile --name Price3D --icon=icon.ico Price3D.py
+PyInstaller --clean --onefile --name Price3D Price3D.py
 ```
 
 The executable will be created at `dist\Price3D.exe`. Run it from a folder
