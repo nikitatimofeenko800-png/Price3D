@@ -57,19 +57,6 @@ The executable will be created at `dist\Price3D.exe`. Run it from a folder
 where it can create its local `config.json` and `cache.json` files. Internet
 access is still optional; exchange rates can use cached or built-in defaults.
 
-## Configuration and generated files
-
-On first run, Price3D creates `config.json`. To customize startup data URLs
-before running the program, copy `config.example.json` to `config.json`.
-`ratesUrl` should provide an exchange-rate JSON response in the format used by
-the default API; `materialsUrl` is optional and should return a JSON object
-containing a `materials` array. An empty URL disables that data source.
-
-The calculator may create `cache.json` and text reports. These local files and
-Python cache files, along with executable build output, are excluded from Git
-by `.gitignore`. Do not add personal configuration or generated reports to a
-public repository.
-
 ## Notes
 
 - Built-in material prices, electricity costs, printer lifetime, marketplace
